@@ -1,8 +1,22 @@
-@import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --brand-default: #fa7275;
+  --brand-100: #EA6365;
+  --red: #ff7474;
+  --error: #b80000;
+  --green: #3dd9b3;
+  --pink: #eea8fd;
+  --orange: #f9ab72;
+  --light-100: #333f4e;
+  --light-200: #A3B2C7;
+  --light-300: #f2f5f9;
+  --light-400: #f2f4f8;
+  --dark-100: #04050c;
+  --dark-200: #131524;
 }
 
 @theme inline {
